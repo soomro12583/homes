@@ -4,45 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            margin: 0;
+    <script src="https://kit.fontawesome.com/2e3f9dceba.js" crossorigin=""></script>
+    <style>body {
+        margin: 0px;
+        background-color: blueviolet;
+    }
+    
+    
+    .header-edge {
+        display: flex;
+        background-color: rgb(18, 211, 98);
+        justify-content: center;
+        padding: .15rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    
+    }
+    
+    .inner-header {
+        display: flex;
+        width: 80%;
+        /* height: 30px; */
+        justify-content: space-evenly;
+        margin: auto;
+        align-items: center;
+    }
+    .nav-outer {
+        background-color: rgb(199, 28, 122);
+        
+    }
+    
+    .nav-inner {
+        display: flex;
+        justify-content: space-around; 
+        margin: auto;
+        width: 60%;
+        padding: 0.70rem;
+       
         }
-        .header-ticker{
-            text-transform: uppercase;
-            background-color: #f37604;
-            padding: 0.3rem;
-            display:flex;
-            justify-content: center;
+    
+    .nav-inner > li {
+        display: flex;
+        list-style: none;
+        letter-spacing: 3px;
         }
-        .header_edge{
-            display: flex;
-            justify-content: center;
+        
+    .nav-inner> li a {
+        text-decoration: none;
+        color: rgb(85, 76, 76);
         }
-        .header{
-            
-            width: 80%;
-            max-width: 1000px;
-            display: flex;
-            justify-content: space-between;
+        
+    .nav-inner> li a:hover {
+        color: rgb(248, 108, 58);
+        text-decoration: underline;
+
+        }
+        .img {
+            padding: 5%;
         }
     </style>
 </head>
 <body>
-    <div class="header-ticker">receive UP TO $5K IN CLOSING COSTS ON SELECT HOMES. CALL 832-585-3304 TODAY!</div>
-    <div class="header_edge">
-        <div class="header">
-        <a href="http://google.com/abc"> <img width="20px" src="./download.jpeg" alt="logo" </a>
-        <a href="http://google.com/abc"> <img width="20px" src="./download.jpeg" alt="logo" </a>
-        <a href="http://google.com/abc"> <img width="20px" src="./download.jpeg" alt="logo" </a>
+    <div class="header-edge">RECEIVE UP TO $5K IN CLOSING COSTS ON SELECT HOMES. CALL 832-585-3304 TODAY!</div>
+    <div class="header">
+        <div class="inner-header">
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div>
+            <img src="download.jpeg" alt="logo" width="70%">
+        </div>
+                   
+        <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
     </div>
     </div>
+    <nav class="nav-outer"> 
+        <ul class="nav-inner">
     <a href="./index.html"><font color="black" id="sr2">Home</font> </a>
     <a href="find your home.html"><font color="black" id="sr2">find your home</font> </a>
     <a href="contact us.html"><font color="black" id="sr2">contact us</font> </a>
     <a href="investor.html"><font color="black" id="sr2">investor</font> </a>
     <a href="waranty.html"><font color="black" id="sr2">waranty</font> </a>
     <a href="sell your land.html"><font color="black" id="sr2">sell your land</font> </a>
-    
+</ul>
+</nav>
+</nav>
 </body>
 </html>
