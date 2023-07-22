@@ -3,165 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-    <style>
-    body {
-        margin: 0px;
-    }
-    
-    
-    .header-edge {
-        display: flex;
-        background-color: rgb(18, 211, 98);
-        justify-content: center;
-        padding: .15rem;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-    
-    }
-    .div-main{
-        justify-content: space-around;
-        display: flex;
-        width: 100%;
-        */border: 1px solid black;
-        height: 90px;
-    }
-    .div-one{
-        align-items: center;
-        justify-content: space-between;
-        display: flex;
-        width: 150px;
-        */border: 1px solid black;
-        height: 80px;
-        justify-content: space-between;
-    }
-    .div-one,.div-two,.div-three{
-        margin: 5px;
-    }
-    .div-two{
-        width: 80px;
-        height: 80px;
-    
-    }
-    .div-three{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 80px;
-        */border: 1px solid black;
-        height: 80px;
-    }
-    .nav-outer {
-        */background-color: rgb(199, 28, 122);
-        text-transform: uppercase;
-        
-    }
-    
-    .nav-inner {
-        display: flex;
-        justify-content: space-around; 
-        margin: auto;
-        width: 60%;
-        padding: 0.70rem;
-       
-        }
-    
-    .nav-inner > li {
-        display: flex;
-        list-style: none;
-        letter-spacing: 3px;
-        }
-        
-    .nav-inner> li a {
-        text-decoration: none;
-        color: rgb(85, 76, 76);
-        }
-        .nav-inner>a:hover{
-            background-color: blue;
-        }
-        .center{
-            display: flex;
-            border: solid black;
-            width: 100%;
-            height: 400px;
-            align-items:center;
-            justify-content:right;
-            background-image: url(image\ one.webp);
-            background-repeat: no-repeat;
-            background-position:center;
-            background-size:cover;
-        }
-        .side{
-            display: flex;
-            border: 1px solid #fff;
-            border-top-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            width: 400px;
-            height: 400px;
-            background: transparent;
-            justify-content: center;
-        }
-        .side::before{
-            content: '';
-            position: absolute;
-            border-top-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            width: 400px;
-            height: 400px;
-            background:rgba(0, 0, 0, .5)
-        }
-        .welcome button{
-            display: flex;
-            padding: 1rem;
-            margin: 1rem;
-            text-transform: uppercase;
-            justify-items: center;
-            justify-content: center;
-        }
-        .welcome h1,h3{
-            color: rgb(245, 10, 10);
-            text-align: center;
-        }
-    </style>
+    <title>Homes</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e3f9dceba.js" crossorigin=""></script>
+
 </head>
 <body>
     <div class="header-edge">RECEIVE UP TO $5K IN CLOSING COSTS ON SELECT HOMES. CALL 832-585-3304 TODAY!</div>
-    <div class="div-main">
-    <div class="div-one"><a href="https://www.facebook.com" ><img width="40px" height="40px" src="facebook.png" alt="photo"></a>
-        <a href="http://linkedin.com"><img width="40px" height="40px" src="linkedin.png" alt="photo"></a>
-        <a href="http://tweeter.com/"><img width="40px" height="40px" src="twitter.png" alt="photo"></a></div>
-    <div class="div-two">
-        <img width="80px" height="80px" src="dream.jpg" alt="photo">
-    </div>
-    <div class="div-three">
-        <a href="http://google.com/abc"><img width="50px" height="50px" src="mart.png" alt="photo"></a>
-    </div>
-</div>
-    <nav class="nav-outer"> 
-        <ul class="nav-inner">
-    <a href="./index.html"><font color="black" id="sr2">Home</font> </a>
-    <a href="find your home.html"><font color="black" id="sr2">find your home</font> </a>
-    <a href="contact us.html"><font color="black" id="sr2">contact us</font> </a>
-    <a href="investor.html"><font color="black" id="sr2">investor</font> </a>
-    <a href="waranty.html"><font color="black" id="sr2">waranty</font> </a>
-    <a href="sell your land.html"><font color="black" id="sr2">sell your land</font> </a>
-</ul>
-</nav>
-</nav>
-<div class="center">
-    <div class="side">
-        <div class="welcome">
-            <h3>welcome</h3>
-            <h1>"why rent when"<br>
-                 you can own ?</h1>
-            <Button>request informat</Button>
-            <button>find your new home</button>
+    <div class="header">
+        <div class="inner-header">
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
         </div>
-        
-
+        <div>
+            <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/ll.webp" alt="logo" width="70%">
+        </div>
+                   
+        <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
     </div>
-</div>
+    </div>
+    <nav class="nav-outer"> 
+          <ul class="nav-inner">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FIND YOUR HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">WARRANTY</a></li>
+                <li><a href="#">INVESTORS</a></li>
+                <li><a href="#">SELL YOUR LAND</a></li>
+            </ul>
+     </nav>
+     <div class="transparent-image">
+        <div class="tranparent-text">
+            <div>
+                <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/image1.jpg" alt="image" style="width:100%;">
+            </div>
+             
+            <div class="content">
+                <div class="inner-text">
+                    <p>WELCOME</p>
+              <h1>Why Rent When <br>You Can Own?</h1>
+              <div>
+                <button class="btn">REQUEST INFORMATION</button>
+            </div>
+            <div>
+                <button class="btn">FIND YOUR NEW HOME</button>
+            </div>
+                </div>
+              
+            </div>
+        </div>
+     </div>
+  
+     <div class="second-image">
+    <div class="image-inner">
+        <p>WHERE WE BUILD</p>
+        <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/rs%3Dw_365%2Ch_183%2Ccg.jpeg" alt="image1"> 
+        <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/rs%3Dw_365%2Ch_183%2Ccg_true.jpeg" alt="image2">
+        <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/rs%3Dw_365%2Ch_183.jpeg" alt="image3">
+    </div>  
+    </div>
 
+    <div class="third-image">
+        <div class="third-inner">
+            <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/image1.jpg" alt="image1" width="33%">
+            <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/image2.jpeg" alt="image2" width="33%">
+           <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/image3.jpeg" alt="image3" width="33%">
+        </div>
+    </div>
+    </div>
+    
+    <div class="textbox">
+        <div class="flex-text">
+            <div class="card">
+                <h1>Stop Renting,<br> Start Owning</h1>
+                <p>Hart Homes Texas</p>
+                <button class="btn1">LEARN MORE</button>
+            </div>
+            <div class="card">
+                <h1>Pre-Qualify for <br>a mortgage loan</h1>
+                <p>Hart Homes Texas</p>
+                <button class="btn1">LEARN MORE</button>
+            </div>
+            <div class="card3">
+                <h1>Hart Family <br>Affiliates</h1>
+                <p>Hart Homes Texas</p>
+                <button class="btn1">LEARN MORE</button>
+            </div>
+        </div>
+     </div>
+
+   <div class="imagebox">
+    <div class="imagebox1">
+        <div class="h">
+            <h1>MAKE YOUR MOVE!</h1>
+            <p> For a limited time only, you can save up to $20k when you buy a Hart Home and finance with Motto Mortgage. Learn more below!</p>
+            <button class="btn1">LEARN MORE</button>
+        </div>
+        <div>
+            <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/sideimage1.jpg" alt="leftimage">
+        </div>
+    </div>
+   </div>
+
+   <div class="imagebox">
+    <div class="imagebox1">
+        <div>
+            <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/sideimage2.jpg" alt="leftimage">
+        </div>
+        <div class="h2">
+            <h1>&#34;</h1>
+            <h2> The dream home that you wanted yesterday may be someone else's reality today. Do not wait for your dream to disappear.</h2>
+            <p>Buyers who wanted to sleep on the decision</p>  
+            <h1>&#95;</h1>         
+        </div>
+    </div>
+   </div>
+
+   <div class="text">
+    <div class="text-center">
+        <h3>Commitment to Excellence and Community</h3>
+        <p style="text-align: center;">Home is where the Hart is! With over 45 years of experience in the industry, we know what moves families -
+            quality and affordability to love through generations. At Hart, we are committed to providing value to the 
+            individual needs of each and every one of our homebuyers. We have a local presence in each of 
+            the communities we serve, so we understand what it means to provide 
+            true unwavering value that doesn't stop at the lot lines. </p>
+         <button class="btn3">FIND OUT MORE</button>
+    </div>
+   </div>
+
+   <div class="ornage">
+    <div class="imagebox2">
+        <div class="imagebox3">
+            <div>
+                <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/sideimage3.jpg" alt="leftimage">
+            </div>
+            <div class="f1">
+                <h1 style="text-align: center;">Hart Homes Cares</h1>
+               <ul class="font1">
+                <li><b>Respect</b> - Hart Homes culture means treating employees, customers, and partners with dignity, fairness and professionalism.</li>
+                <li><b>Loyalty</b> - Hart Homes commitment to its employees, customers, and partners by fostering a sense of trust, support and dedication.</li>
+                <li><b>Integrity </b>- Hart Homes strong foundation emphasizes honesty, transparency, and accountability in all its operations and relationships.</li>
+                <li><b>Ethical behavior </b>- Hart Homes adheres to high standards of conduct,
+                     complying with legal and industry regulations and promoting fairness, justice, and social responsibility.</li>
+                <li><b>Profitability</b> -  Hart Homes will expand through successful transactions of profitability, without sacrificing ethical conduct, fair treatment of employees, 
+                    or customer satisfaction. A strong culture of profitability balances financial goals with our values and long-term visions.</li>
+                
+               </ul>
+            </div>
+            
+        </div>
+       </div>
+    
+       <div class="imagebox2">
+        <div class="imagebox3">
+            <div class="font">
+                <h1>The Hart Difference</h1>
+                <p>Each one of our homes is crafted with you in mind. We go above and beyond by asking our customers what they like in a home 
+                    and delivering just that. With over 45 years of experience in the business, we know homebuilding and we know what homeowners like. 
+                    If we wouldn't live in it, we wouldn't build it. We enjoy delivering quality and affordable homes that families will love for generations. 
+                    That's the Hart Difference!</p> 
+            </div>
+            <div class="h2">
+                <img class="h3" src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/sideimage4.jpg" alt="leftimage"> 
+            </div>
+        </div>
+       </div>
+
+       <div class="imagebox2">
+        <div class="imagebox3">
+            <div>
+                <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/sideimage5.jpg" alt="leftimage">
+            </div>
+            <div class="font">
+                <h1 style="text-align: center;">Hart Cares Request</h1>
+              <p style="text-align: centere;">Rest assured your new home will be protected by one of the best warranties on the market. Each home that we build is supported by a 2-10 Home Buyers Warranty.
+            This means that your HVAC, plumbing, electrical systems have coverage for two years, and the structure has a ten year coverage. </p>
+            </div>
+            
+        </div>
+       </div>
+
+   </div>
+                    <h1 class="text1">Associated With</h1>
+   <div class="footer-logo">
+    <div class="footerlogo-inner">
+        <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/logo1.jpg" alt="logo1">
+        <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/logo2.jpg" alt="logo2">
+        <img src="https://raw.githubusercontent.com/Ashfaq778/firstlesson/main/logo3.jpg" alt="logo3">
+     </div>  
+    </div>
+
+   <div class="text1">
+    <div class="text-center">
+        <h1>We're here to help you</h1>
+        <p style="text-align: center; font-size:20px;line-height:25px;">We are Texas natives and real estate professionals with decades of combined experience in the Houston metro market.
+            As locals, with extensive knowledge of the area, we will help you find the right home for your family and budget.  </p>
+         <button class="btn4">CONTACT A NEW HOME SPECIALIST</button>
+    </div>
+   </div>
+  <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    <div class="text2">
+        COPYRIGHT © 2023 HART HOMES - ALL RIGHTS RESERVED.
+    </div>
+
+    <div class="text2">
+        AN EQUAL HOUSING OPPORTUNITY COMPANY. INDEPENDENTLY OWNED AND OPERATED.
+    </div>
 </body>
 </html>
